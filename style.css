@@ -53,7 +53,7 @@ body {
   font-size: 62.5%;
 }
 .switch {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .switch label {
   position: relative;
@@ -67,7 +67,8 @@ body {
 }
 
 .switch label::after {
-  content: "Off";
+  content: "Eiu";
+  font-size: 1em;
   color: #444;
   line-height: 4em;
   font-weight: bold;
@@ -92,9 +93,11 @@ body {
 }
 
 .switch [type="checkbox"]:checked + label::after {
-  content: "On";
+  content: "Thương Em!";
+  font-size: 1em;
   color: #fff;
-  transform: translateX(-6em);
+  transform: translateX(-3em);
+  line-height: 4em;
 }
 
 .switch [type="checkbox"]:checked + label::before {
